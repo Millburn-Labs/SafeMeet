@@ -37,11 +37,8 @@ export function Header() {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center gap-3">
-            <Button variant="ghost" className="body-md">
-              Sign In
-            </Button>
             <Button className="gradient-primary text-white body-md font-semibold">
-              Get Started
+              Connect Wallet
             </Button>
           </div>
 
@@ -72,11 +69,8 @@ export function Header() {
                 About
               </a>
               <div className="flex flex-col gap-2 pt-4 border-t border-border">
-                <Button variant="ghost" className="w-full body-md">
-                  Sign In
-                </Button>
                 <Button className="w-full gradient-primary text-white body-md font-semibold">
-                  Get Started
+                  Connect Wallet
                 </Button>
               </div>
             </div>
