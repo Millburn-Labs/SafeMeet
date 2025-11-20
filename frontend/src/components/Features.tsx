@@ -151,7 +151,7 @@ export function Features() {
 
         {/* Bottom CTA */}
         <div className="mt-16 text-center">
-          <div className="inline-flex flex-col sm:flex-row items-center gap-6 bg-gradient-to-r from-emerald-50 to-teal-50 dark:from-emerald-950/20 dark:to-teal-950/20 rounded-2xl p-8 border border-border">
+          <div className="inline-flex flex-col sm:flex-row items-center gap-6 bg-linear-to-r from-emerald-50 to-teal-50 dark:from-emerald-950/20 dark:to-teal-950/20 rounded-2xl p-8 border border-border">
             <div className="text-left">
               <h3 className="text-2xl font-bold mb-2">Ready to start saving?</h3>
               <p className="text-base text-muted-foreground">Join thousands of users already growing their wealth together.</p>

@@ -50,7 +50,7 @@ function HowItWorksStep({ number, title, description, icon }: HowItWorksStepProp
 
 export function About() {
   return (
-    <section id="about" className="py-24 bg-gradient-to-b from-background to-muted/30">
+    <section id="about" className="py-24 bg-linear-to-b from-background to-muted/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -154,7 +154,7 @@ export function About() {
 
         {/* Additional Info Section */}
         <div className="mt-16 grid md:grid-cols-2 gap-8">
-          <div className="bg-gradient-to-br from-emerald-50 to-teal-50 dark:from-emerald-950/20 dark:to-teal-950/20 rounded-2xl p-8 border border-border">
+          <div className="bg-linear-to-br from-emerald-50 to-teal-50 dark:from-emerald-950/20 dark:to-teal-950/20 rounded-2xl p-8 border border-border">
             <Shield size={48} className="text-emerald-600 dark:text-emerald-400 mb-4" />
             <h3 className="text-2xl font-bold mb-3">Bank-Grade Security</h3>
             <p className="text-base text-muted-foreground mb-6 leading-relaxed">
@@ -176,7 +176,7 @@ export function About() {
             </ul>
           </div>
 
-          <div className="bg-gradient-to-br from-purple-50 to-amber-50 dark:from-purple-950/20 dark:to-amber-950/20 rounded-2xl p-8 border border-border">
+          <div className="bg-linear-to-br from-purple-50 to-amber-50 dark:from-purple-950/20 dark:to-amber-950/20 rounded-2xl p-8 border border-border">
             <TrendingUp size={48} className="text-purple-600 dark:text-purple-400 mb-4" />
             <h3 className="text-2xl font-bold mb-3">Optimized Returns</h3>
             <p className="text-base text-muted-foreground mb-6 leading-relaxed">
