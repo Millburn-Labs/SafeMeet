@@ -20,7 +20,7 @@ export function FinalCTA() {
           
           <div className="relative text-center">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-emerald-100 to-teal-100 dark:from-emerald-900/30 dark:to-teal-900/30 rounded-full px-5 py-2 mb-6 border border-border">
+            <div className="inline-flex items-center gap-2 bg-linear-to-r from-emerald-100 to-teal-100 dark:from-emerald-900/30 dark:to-teal-900/30 rounded-full px-5 py-2 mb-6 border border-border">
               <Sparkles size={18} className="text-emerald-600 dark:text-emerald-400" />
               <span className="text-sm font-semibold">Start Saving Today</span>
             </div>
