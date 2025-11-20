@@ -119,7 +119,7 @@ export function Hero() {
             <div className="relative">
               {/* Main Image with Glow */}
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-cyan-500/30">
-                <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/20 to-purple-500/20 blur-2xl -z-10" />
+                <div className="absolute inset-0 bg-linear-to-br from-cyan-500/20 to-purple-500/20 blur-2xl -z-10" />
                 <img
                   src="https://images.unsplash.com/photo-1565350897149-38dfafa81d83?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTAwNDR8MHwxfHNlYXJjaHwyfHxjb2xsYWJvcmF0aW9uJTIwdGVhbXdvcmslMjBmaW5hbmNlJTIwZGlnaXRhbHxlbnwwfDB8fHwxNzYyNDUxMzAwfDA&ixlib=rb-4.1.0&q=85"
                   alt="Modern 3D illustration of people collaborating around digital coins or savings concept"

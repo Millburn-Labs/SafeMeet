@@ -2,6 +2,7 @@
 
 import { Users, Zap, Layout, Award, ArrowRight, Sparkles } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 
 interface FeatureHighlightCardProps {
   icon: React.ReactNode;
@@ -23,7 +24,7 @@ function FeatureHighlightCard({
   borderColor
 }: FeatureHighlightCardProps) {
   return (
-    <div className={`group relative bg-black/40 backdrop-blur-sm border ${borderColor} rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 hover:${borderColor.replace('/20', '/50')}`}>
+    <div className={`group relative bg-black/40 backdrop-blur-sm border ${borderColor} rounded-2xl p-8 hover:shadow-xl hover:shadow-cyan-500/20 transition-all duration-300 hover:-translate-y-1`}>
       {/* Icon */}
       <div className={`w-16 h-16 ${iconBg} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 border ${borderColor}`}>
         {icon}
